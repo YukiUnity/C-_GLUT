@@ -1,0 +1,94 @@
+﻿2018/01/13 18:22:40 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "D:\2017卒研他\glsample_frame_180110\glsample6_shading.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Release\glsample_frameLv3.unsuccessfulbuild" を作成しています。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt calc.cpp draw.cpp light.cpp main.cpp kbdmouse.cpp projview.cpp sim.cpp
+         calc.cpp
+     1>calc.cpp(6): warning C4305: '初期化中' : 'double' から 'float' へ切り詰めます。
+     1>calc.cpp(7): warning C4244: '初期化中' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>calc.cpp(8): warning C4244: '初期化中' : 'double' から 'float' への変換です。データが失われる可能性があります。
+         draw.cpp
+     1>draw.cpp(764): warning C4101: 'y' : ローカル変数は 1 度も使われていません。
+     1>draw.cpp(764): warning C4101: 'x' : ローカル変数は 1 度も使われていません。
+     1>draw.cpp(764): warning C4101: 'z' : ローカル変数は 1 度も使われていません。
+     1>draw.cpp(799): warning C4101: 'y' : ローカル変数は 1 度も使われていません。
+     1>draw.cpp(799): warning C4101: 'x' : ローカル変数は 1 度も使われていません。
+     1>draw.cpp(799): warning C4101: 'z' : ローカル変数は 1 度も使われていません。
+         light.cpp
+         main.cpp
+         kbdmouse.cpp
+     1>kbdmouse.cpp(27): warning C4800: 'int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+     1>kbdmouse.cpp(29): warning C4800: 'int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+     1>kbdmouse.cpp(80): warning C4065: switch 文に 'default' はありますが 'case' ラベルがありません。
+         projview.cpp
+         sim.cpp
+     1>sim.cpp(24): warning C4244: 'return' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>sim.cpp(68): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>sim.cpp(73): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>sim.cpp(74): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>sim.cpp(75): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>sim.cpp(165): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>sim.cpp(168): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>sim.cpp(184): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>sim.cpp(294): warning C4305: '引数' : 'double' から 'float' へ切り詰めます。
+     1>sim.cpp(294): warning C4305: '引数' : 'double' から 'float' へ切り詰めます。
+     1>sim.cpp(369): warning C4305: '初期化中' : 'double' から 'const float' へ切り詰めます。
+     1>sim.cpp(390): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>sim.cpp(428): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>sim.cpp(475): warning C4305: '+=' : 'double' から 'float' へ切り詰めます。
+     1>sim.cpp(476): warning C4305: '-=' : 'double' から 'float' へ切り詰めます。
+     1>sim.cpp(490): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>sim.cpp(491): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>sim.cpp(494): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>sim.cpp(494): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>sim.cpp(495): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>sim.cpp(495): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>sim.cpp(498): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>sim.cpp(514): warning C4305: '+=' : 'double' から 'float' へ切り詰めます。
+     1>sim.cpp(538): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>sim.cpp(545): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>sim.cpp(551): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>sim.cpp(559): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>sim.cpp(645): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>sim.cpp(648): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>sim.cpp(652): warning C4809: switch 文に冗長な 'default' ラベルが存在します。可能な 'case' 条件はすべて記述されています
+     1>sim.cpp(656): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>sim.cpp(659): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>sim.cpp(663): warning C4809: switch 文に冗長な 'default' ラベルが存在します。可能な 'case' 条件はすべて記述されています
+     1>sim.cpp(667): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>sim.cpp(670): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>sim.cpp(674): warning C4809: switch 文に冗長な 'default' ラベルが存在します。可能な 'case' 条件はすべて記述されています
+     1>sim.cpp(678): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>sim.cpp(681): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>sim.cpp(685): warning C4809: switch 文に冗長な 'default' ラベルが存在します。可能な 'case' 条件はすべて記述されています
+     1>sim.cpp(689): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>sim.cpp(692): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>sim.cpp(696): warning C4809: switch 文に冗長な 'default' ラベルが存在します。可能な 'case' 条件はすべて記述されています
+     1>sim.cpp(700): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>sim.cpp(703): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>sim.cpp(707): warning C4809: switch 文に冗長な 'default' ラベルが存在します。可能な 'case' 条件はすべて記述されています
+     1>sim.cpp(713): warning C4244: '初期化中' : 'double' から 'const int' への変換です。データが失われる可能性があります。
+     1>sim.cpp(458): warning C4101: 'chargepower' : ローカル変数は 1 度も使われていません。
+     1>sim.cpp(454): warning C4101: 'pitch2' : ローカル変数は 1 度も使われていません。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\2017卒研他\glsample_frame_180110\Release\glsample_frameLv3.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\glsample_frameLv3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\2017卒研他\glsample_frame_180110\Release\glsample_frameLv3.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\2017卒研他\glsample_frame_180110\Release\glsample_frameLv3.lib" /MACHINE:X86 Release\calc.obj
+         Release\draw.obj
+         Release\light.obj
+         Release\main.obj
+         Release\kbdmouse.obj
+         Release\projview.obj
+         Release\sim.obj
+         コード生成しています。
+         コード生成が終了しました。
+         glsample6_shading.vcxproj -> D:\2017卒研他\glsample_frame_180110\Release\glsample_frameLv3.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\2017卒研他\glsample_frame_180110\Release\glsample_frameLv3.exe;#1" /manifest Release\glsample_frameLv3.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         ファイル "Release\glsample_frameLv3.unsuccessfulbuild" を削除しています。
+         "Release\glsample_frameLv3.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "D:\2017卒研他\glsample_frame_180110\glsample6_shading.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:05.83
